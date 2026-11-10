@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Secrets and environment files (NEVER commit these)
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!terraform.tfvars.example
+crash.log
+
+# Logs and OS files
+*.log
+.DS_Store
